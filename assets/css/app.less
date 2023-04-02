@@ -1,0 +1,21 @@
+@btn-color: #4CAF50;
+@btn-padding: 10px 20px;
+@btn-border-radius: 5px;
+
+// Définition de la classe .btn
+.btn {
+    background: linear-gradient(to bottom, white, @btn-color) !important;
+    display: grid;
+    color: white;
+    padding: @btn-padding;
+    border-radius: @btn-border-radius;
+    text-decoration: none;
+    transform: matrix3d(50px);
+
+    &:hover {
+        background-color: lighten(@btn-color, 10%);
+    }
+}
+body{
+    background-image: url("../images/bt5.png") !important;
+}

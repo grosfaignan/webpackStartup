@@ -1,0 +1,22 @@
+{
+    "presets": [
+        [
+            "@babel/preset-env",
+            {
+                // "useBuiltIns": "entry",
+                // "corejs": "3.22",
+                "modules":false,
+                "targets": {
+                    "chrome": "30",
+                    "firefox": "30",
+                    "safari": "7",
+                    "edge": "12",
+                    "ie": "6",
+                    "opera": "11"
+                  }
+            }
+        ]
+    ]
+    // "plugins": ["syntax-dynamic-import"]
+    // "plugins": ["@babel/plugin-syntax-dynamic-import"]
+}
